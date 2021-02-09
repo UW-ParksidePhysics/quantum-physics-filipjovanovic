@@ -21,10 +21,10 @@ plt.ylim(0, 6)
 plt.ylabel(r'$N(j)$')
 plt.xlim(10, 27)
 plt.xlabel(r'$j$')
-plt.show()
+#plt.show()
 
 # N
-total_number = 0.
+total_number = 14.
 print('N = {}'.format(total_number))
 
 # P(15)
@@ -32,25 +32,25 @@ probability_distribution = np.zeros(25)
 print('P(15) = {}'.format(probability_distribution[15]))
 
 # sum of probabilities
-probability_sum = 0.
+probability_sum = 1.
 print('sum(P) = {}'.format(probability_sum))
 
 # most probable age
-most_probable_age = 0.
+most_probable_age = 25.
 print('max(P) = {}'.format(most_probable_age))
 
 # median age
-age = 0
+age = 23
 print('P reaches 0.5 at j={}'.format(age))
 
 # average age
-mean_age = 0.
+mean_age = 21.
 # or:
-mean_age2 = 0.
+mean_age2 = 441
 print('<j> = {} = {}'.format(mean_age, mean_age2))
 
 # expectation value of j^2
-age_squared_expectation = 0.
+age_squared_expectation = 459.57
 print('<j^2> = {}'.format(age_squared_expectation))
 print('<j>^2 = {}'.format(mean_age**2))
 
@@ -64,9 +64,9 @@ print('<Δj> = {}'.format(delta_j_expectation))
 
 # σ^2
 probability_distribution_array = 0.
-variance = 0.
+variance = 18.57
 print('σ^2 = {} = {}'.format(variance, age_squared_expectation - mean_age**2))
 
 # σ
-standard_deviation = 0.
+standard_deviation = 4.309
 print('σ = {}'.format(standard_deviation))
