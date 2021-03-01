@@ -4,7 +4,7 @@ from wag_the_dog import wag_the_dog
 
 def main():
     potential_width = 1.0
-    positions = np.linspace(-2 * potential_width, 2 * potential_width, num=10000)
+    positions = np.linspace(-3 * potential_width, 3 * potential_width, num=10000)
     #k_squared = (np.pi / potential_width)**2  # k_1 = pi/a ==> k_1^2 = pi^2 / a^2
     k = 1
     wag_range = np.linspace(0.5, 1.5, num=5)
