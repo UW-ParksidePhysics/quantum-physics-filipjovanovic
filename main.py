@@ -2,12 +2,12 @@ import numpy as np
 from wag_the_dog import wag_the_dog
 
 
-def main():
+def main1():
     potential_width = 1.0
     positions = np.linspace(-3*potential_width, 3 * potential_width, num=10000)
 
-    n = 1   # Initial Energy State
-    n_max = 3  # Final Energy State
+    n = int(input("Choose Initial Energy Level (Ground State is n=0):"))   # Initial Energy State
+    n_max = int(input("Choose Final Energy Level:"))  # Final Energy State
 
     while n <= n_max:
         k = (2*n) + 1
@@ -19,4 +19,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main1()
