@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 
 def calculate_harmonic_oscillator_eigenfunctions(eigenfunction_positions, eigenfunction_index,
-                                                  harmonic_oscillator_width=1.0):
+                                                 harmonic_oscillator_width=1.0):
     """
     :param eigenfunction_positions:  x-values in a Numpy array
     :param eigenfunction_index: n
